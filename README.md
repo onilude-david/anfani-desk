@@ -30,7 +30,7 @@ Made by [Anfani](https://anfani.app), the platform that finds the opportunities 
 You need [Claude Code](https://claude.com/claude-code).
 
 ```
-/plugin marketplace add <owner>/anfani-desk
+/plugin marketplace add onilude-david/anfani-desk
 /plugin install anfani-desk@anfani
 ```
 
