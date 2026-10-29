@@ -1,0 +1,12 @@
+{
+  "name": "anfani",
+  "description": "Plugins from Anfani (anfani.app): tools that help people find and win opportunities.",
+  "owner": { "name": "Anfani", "url": "https://anfani.app" },
+  "plugins": [
+    {
+      "name": "anfani-desk",
+      "source": "./plugins/anfani-desk",
+      "description": "Your private opportunity desk: scout, gate, score and fill applications from your own record. Never submits."
+    }
+  ]
+}

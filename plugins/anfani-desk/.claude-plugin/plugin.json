@@ -1,0 +1,9 @@
+{
+  "name": "anfani-desk",
+  "version": "1.0.0",
+  "description": "Your private opportunity desk: finds scholarships, grants, fellowships, awards, accelerators, funded events and roles that fit you, checks eligibility, and fills applications from your real record in your own voice. It submits only when you approve the final form, one application at a time.",
+  "author": { "name": "Anfani", "url": "https://anfani.app" },
+  "homepage": "https://anfani.app",
+  "license": "MIT",
+  "keywords": ["opportunities", "scholarships", "grants", "fellowships", "applications", "awards", "accelerators", "anfani"]
+}
