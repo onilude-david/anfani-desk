@@ -15,12 +15,15 @@ Target: $ARGUMENTS
    opportunity against `desk/gates.md`; if it fails a hard gate, stop and say why.
 2. Find the form's real questions. If the form needs a login, ask the user to paste or screenshot the questions; never
    sign in.
-3. Create `desk/applications/<yyyy-mm>-<slug>/answers.md` from
+3. **Check the AI policy first.** If the programme forbids AI-written answers, use record-only mode (the standard's
+   step 9): create the sheet, fill the form read, the evidence map, the facts and what each question tests, and leave
+   every answer empty for the user. Skip to step 5.
+4. Otherwise create `desk/applications/<yyyy-mm>-<slug>/answers.md` (yyyy-mm is the deadline month; for a call not
+   open yet, last cycle's deadline month) from
    `${CLAUDE_PLUGIN_ROOT}/skills/opportunity-desk/templates/answer-sheet.md`. Fill the form read, the evidence map and
-   every answer, using `${CLAUDE_PLUGIN_ROOT}/skills/opportunity-desk/references/field-guide/question-bank.md` for each question type and the chapter for the
-   category.
-4. Where the programme forbids AI-written answers, give the record and the checklist, and leave the writing to the
-   user.
-5. Run the originality check and the Word export from the skill's scripts. Add a pipeline row.
+   every answer, using `${CLAUDE_PLUGIN_ROOT}/skills/opportunity-desk/references/field-guide/question-bank.md` for
+   each question type and the chapter for the category.
+5. Run the originality check (record-only sheets: only once the user's own text is in) and the Word export from the
+   skill's scripts. Add a pipeline row.
 6. Hand over: the sheet path, the `[TBC]` list, the warnings, and the recommendation. When nothing is `[TBC]`, offer
    `/anfani-desk:submit` (the user approves the final form before it goes).

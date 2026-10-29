@@ -402,7 +402,7 @@ not permission. Default rule for silent programmes: treat as "disclose and keep 
 | Tony Elumelu Foundation | Silent for applicants | | | The Foundation says it is using AI in its own process | tonyelumelufoundation.org selection FAQ |
 | Commonwealth Scholarships | Silent on pages read | | Copied website text may be treated as plagiarism | | cscuk.fcdo.gov.uk |
 | Gates Cambridge | Silent | | | | gatescambridge.org |
-| Schwarzman | Silent on admissions page | | | | schwarzmanscholars.org/admissions |
+| Schwarzman | Forbids (applicants certify no AI generator was used; application instructions, not the admissions page) | | Using an AI generator | Not stated | schwarzmanscholars.org/admissions/application-instructions |
 | Diana Award | Silent | | | | diana-award.org.uk |
 | UN Young Leaders for the SDGs | Silent | | | | 2025 call PDF |
 | MIT Solve | Silent | | | | solve.mit.edu |
@@ -410,8 +410,7 @@ not permission. Default rule for silent programmes: treat as "disclose and keep 
 
 **Rules for this desk, by category.**
 
-- **Forbids (Chevening, OYW).** The desk prepares the record only: facts, dates, numbers, the criteria. The
-  applicant writes every word. No desk edits.
+- **Forbids (Chevening, OYW, Schwarzman).** Record-only mode: the record only: facts, dates, numbers, documents, and for each question what it tests and the criteria in the programme's words. No drafted text, no outline, no suggested structure. The applicant writes every word; the desk may check facts and limits, never edit wording.
 - **Rhodes.** No one may write or edit the statements, human or desk. AI may cut length and check grammar, but the
   tool and the prompts must be disclosed. The desk's role ends at the record and at general feedback.
 - **Knight-Hennessy.** The desk must not hand the applicant an AI-made outline or narrative frame. It may supply the fact

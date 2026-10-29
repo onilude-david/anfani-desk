@@ -56,7 +56,8 @@ you connect.
 
 ## How submitting works
 
-1. The application is final: no `[TBC]` left, originality clean, your "Make it yours" pass ticked.
+1. The application is final: no `[TBC]` left, deadline open, word limits checked on the live form, originality
+   clean, no unresolved WEAK review, your "Make it yours" pass ticked, and not already submitted.
 2. You open the form in your own browser and sign in yourself.
 3. The desk fills each field from the sheet, then shows you everything it entered.
 4. You say yes in chat. One yes submits one application, once.

@@ -6,7 +6,7 @@
     {
       "name": "anfani-desk",
       "source": "./plugins/anfani-desk",
-      "description": "Your private opportunity desk: scout, gate, score and fill applications from your own record. Never submits."
+      "description": "Your private opportunity desk: scout, gate, score and fill applications from your own record. Submits only on your yes."
     }
   ]
 }

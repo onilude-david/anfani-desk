@@ -4,7 +4,7 @@ Usage: python md2docx.py <answers.md> <out.docx>
 Handles headings, paragraphs, bold, italics, inline code, links (as text), bullet and numbered lists, tables,
 blockquotes and horizontal rules. [TBC: ...] markers are highlighted yellow.
 """
-import re, sys
+import os, re, sys
 try:
     from docx import Document
 except ImportError:
@@ -85,5 +85,9 @@ def convert(md, out):
     flush(); doc.save(out)
 
 if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        sys.exit('usage: python md2docx.py <answers.md> <answers.docx>')
     src, dst = sys.argv[1:3]
+    if not os.path.isfile(src):
+        sys.exit(f'error: file not found: {src}')
     convert(open(src, encoding='utf-8').read(), dst); print(dst)

@@ -1,5 +1,5 @@
 ---
-name: case-strength-assessor
+name: o1-case-strength-assessor
 description: Optional pre-draft skill. Reads the document index from document-summary-arrangement and produces a frank, evidence-based assessment of which O-1A/EB-1A criteria or NIW Dhanasar prongs are strong, moderate, weak, or unsupported. Use only when the team wants this pass before narrative drafting — not a required step.
 ---
 

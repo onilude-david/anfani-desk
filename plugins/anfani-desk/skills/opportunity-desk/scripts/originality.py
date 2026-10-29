@@ -23,7 +23,8 @@ MIN = 10
 ALL = False
 
 def norm(s):
-    return re.sub(r'[^a-z0-9 ]+', ' ', s.lower()).split()
+    # \w keeps accented letters (niños, São Paulo); underscores and punctuation split words
+    return re.sub(r'[\W_]+', ' ', s.lower()).split()
 
 def sentences(text):
     text = re.sub(r'`[^`]*`', ' ', text)
@@ -43,12 +44,19 @@ def load(path):
         return ''
 
 def answers_only(text):
-    out, take, quoted = [], False, False
+    out, take, quoted, own = [], False, False, False
     for ln in text.splitlines():
         if ln.startswith('## '):
-            # the programme's own criteria are quoted on purpose; never test them
-            quoted = ln.lower().startswith('## scoring criteria'); take = False; continue
+            # the programme's own criteria are quoted on purpose; never test them.
+            # the user's own text (AI-forbidden programmes) is answer text: test all of it
+            h = ln.lower()
+            quoted = h.startswith('## scoring criteria'); own = h.startswith("## user's own text")
+            take = False; continue
         if quoted:
+            continue
+        if own:
+            if ln.strip() and not ln.lstrip().startswith('('):
+                out.append(ln)
             continue
         if ln.startswith('>'):
             out.append(ln.lstrip('> ')); take = False; continue
@@ -73,6 +81,8 @@ def main(argv):
     i = 0
     while i < len(argv):
         a = argv[i]
+        if a in ('--against', '--min-words', '--sheets', '--bio') and i + 1 >= len(argv):
+            sys.exit(f'error: {a} needs a value')
         if a == '--against':
             against.append(argv[i + 1]); i += 2
         elif a == '--min-words':
@@ -87,6 +97,17 @@ def main(argv):
             sheets.append(a); i += 1
     if not os.path.isdir('desk') and '--sheets' not in argv:
         sys.exit('error: no desk/ folder here. Run from the project that holds desk/, or pass --sheets and --bio.')
+    if not sheets:
+        sys.exit('error: give at least one sheet, e.g. python originality.py desk/applications/<folder>/answers.md')
+    for s in sheets:
+        if not os.path.isfile(s):
+            sys.exit(f'error: sheet not found: {s}')
+        if not body(s).strip():
+            sys.exit(f'error: no answer text found in {s} (answers go in > blockquotes, under **Answer, or under '
+                     '"## User\'s own text"). Nothing was checked.')
+    for a in against:
+        if not os.path.exists(a):
+            sys.exit(f'error: --against path not found: {a}')
     bio_sh = shingles(norm(load(BIO)), MIN)
     others = {p: body(p) for p in glob.glob(SHEETS, recursive=True)
               if os.path.basename(p).endswith('.md')}
@@ -129,4 +150,8 @@ def main(argv):
     return 1 if problems else 0
 
 if __name__ == '__main__':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    except AttributeError:
+        pass
     sys.exit(main(sys.argv[1:]))

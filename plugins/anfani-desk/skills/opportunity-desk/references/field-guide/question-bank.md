@@ -965,7 +965,7 @@ Run this on every form before drafting and again before hand-over.
 
 | Pattern | Examples | What the desk does |
 |---|---|---|
-| **Forbids** AI-written answers | Chevening (own original work; AI content treated as plagiarism and fraud) [CHVF]; One Young World (do not use AI to write answers) [OYW]; Schwarzman (certify no AI generator was used) [SS]; NIH (applications substantially developed by AI are not treated as original; detection tools used) [CITI][REG] | Prepare the record, the structure and the checklist of what each question tests. Boxes stay empty. The applicant writes. |
+| **Forbids** AI-written answers | Chevening (own original work; AI content treated as plagiarism and fraud) [CHVF]; One Young World (do not use AI to write answers) [OYW]; Schwarzman (certify no AI generator was used) [SS]; NIH (applications substantially developed by AI are not treated as original; detection tools used) [CITI][REG] | Record-only mode (see `opportunity-desk/SKILL.md` step 9): the record only: facts, dates, numbers, documents, and for each question what it tests and the criteria in the programme's words. No drafted text, no outline, no suggested structure. The applicant writes every word; the desk may check facts and limits, never edit wording. |
 | **Discourages, judges by authenticity** | Echoing Green welcomes thoughtful use for language and access barriers but may rank mostly-AI applications lower or rule them out [EG26]; Trinity strongly discourages AI essays [TRIN] | Draft only from the applicant's words and record; they rewrite openings and closings themselves. |
 | **Disclose** | MWF (disclose any technology used, including AI; you stay responsible) [MWF]; UKRI (declare substantive use; minor language help exempt) [UKRI]; Wellcome, RGS (declare) [THS][RGS]; NSF (encouraged) [SRAI] | Carry the disclosure line in the sheet; make it true. |
 | **Allows, author accountable** | ERC (brainstorming, revision, translation allowed; full authorship responsibility) [THS]; Canadian agencies (drafting allowed with disclosure) [SRAI] | Normal desk process plus the "Make it yours" pass. |
@@ -1073,8 +1073,8 @@ answers together for the same reason [S-UCAS]).
 `desk/profile.md`, the document from `desk/evidence.md`, and the gap as `[TBC]`. Decide the protagonist per question (the
 applicant, the team, or the people served).
 
-**Step 7. Decide who writes.** If the policy forbids AI-written answers, stop drafting: give the applicant the checklist per
-question (what it tests, the structure, the stories and facts to use). Otherwise continue.
+**Step 7. Decide who writes.** If the policy forbids AI-written answers, stop drafting: switch to record-only mode:
+the record only: facts, dates, numbers, documents, and for each question what it tests and the criteria in the programme's words. No drafted text, no outline, no suggested structure. The applicant writes every word; the desk may check facts and limits, never edit wording. Otherwise continue.
 
 **Step 8. Draft.** First sentence answers the question. Follow the structure for the type. Use the criterion's
 words once where they fit. Write at about 90–100% of the limit. Keep numbers to the verified figures in the profile.

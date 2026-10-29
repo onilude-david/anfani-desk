@@ -7,7 +7,7 @@ For: <the user | their organisation>
 Deadline: <date and time in the user's time zone> (<organiser's own time zone and time>)
 Offer: <money, programme, visibility, in one line>
 Fee to apply: <none | amount>
-AI policy: <forbids | disclose | checks | silent> (<page where it says so>)
+AI policy: <forbids (record-only) | disclose | checks | silent> (<page where it says so>)
 Fit score: <n>/10 (+<bonus>) · Effort: <S | M | L | XL>
 Drafted: <today's date>
 

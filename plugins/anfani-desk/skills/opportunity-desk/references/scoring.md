@@ -6,7 +6,8 @@ The user's own values for each gate live in `desk/gates.md` (written at setup). 
 
 1. **Nationality or residence** outside the call (for example EU-only, US-only, one region only).
 2. **Age** outside the limit on the programme's reference date (read the rule: on the deadline, at the start date, on
-   1 January, "under 30" meaning up to the 30th birthday). Watch birthdays that fall inside the window.
+   1 January; "under 30" means before the 30th birthday; "18–35" usually includes age 35, so up to the day before
+   the 36th birthday, unless the programme says otherwise). Watch birthdays that fall inside the window.
 3. **Stage:** student-only or graduate-only calls that do not match; revenue, funding or team-size floors not met.
 4. **Degree and grades:** minimum class or GPA (for example a 2:1), degree subject, years since graduating.
 5. **Registration and documents:** registered organisation, audited accounts, years of operation, tax or

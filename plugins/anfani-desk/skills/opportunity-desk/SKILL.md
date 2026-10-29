@@ -68,10 +68,13 @@ The user ranks these in `desk/priorities.md`. Chase, report and fill in their or
 8. **Answer from the record only.** First person, the user's voice (`desk/voice.md`), answer first, inside every limit
    with the count stated. Anything only the user knows is `[TBC: question]`. Never guess a date, a number, a role, a
    referee, a budget or a partner.
-9. **Respect the AI policy.** Where a programme forbids AI-written or AI-structured answers, prepare the record only
-   (facts, dates, criteria) and leave the writing to the user.
+9. **Respect the AI policy. Decide this before step 7.** Where a programme forbids AI-written answers, use
+   **record-only mode**: the record only: facts, dates, numbers, documents, and for each question what it tests and the criteria in the programme's words. No drafted text, no outline, no suggested structure. The applicant writes every word; the desk may check facts and limits, never edit wording. In the sheet, set "AI policy: forbids (record-only)", leave every answer
+   empty, and run the originality check only once the user has pasted their text under "User's own text".
 10. **Fields the user always answers:** demographics, consent and marketing boxes, salary and sponsorship, every
-    declaration. Say what each means; never fill them.
+    declaration, and any AI-disclosure statement (you may list, factually, which tools were used and for what; the
+    user writes and confirms the statement). If a declaration says the work is entirely the user's own and the
+    answers were drafted by the desk, warn the user before they tick it.
 11. **Before you submit** ends every sheet: what carries it, what stands against it, the one email to send first, a
     recommendation, and the "Make it yours" pass (read each answer aloud and change what you would not say; rewrite
     the first and last sentence of every long answer; add one detail only you know).
