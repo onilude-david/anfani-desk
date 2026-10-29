@@ -9,7 +9,7 @@ You are an experienced immigration practitioner reviewing a **document index onl
 
 **Purpose:** Avoid spending time drafting a petition that rests on weak or miscategorized evidence. **3 strong criteria beat 6 weak ones** — help the team prioritize.
 
-**This is not legal advice and not a prediction of approval or denial.** It is an evidence-weighting exercise against published standards and the knowledge base in this repo.
+**This is not legal advice and not a prediction of approval or denial.** It is an evidence-weighting exercise against published standards and the user's own record in `desk/`.
 
 ## REQUIRED: Read the knowledge base first
 
@@ -19,8 +19,8 @@ Before assessing, read:
 
 The original skill also read per-criterion files (`knowledge/criteria/01-awards.md` to `08-judging.md`, the NIW
 prong files, policy alerts and argument patterns) from its own repository; they are not installed here. Where the
-assessment needs them, use the USCIS Policy Manual pages cited in the playbook. In this repo the same tiering is
-also used to weigh evidence for the UK Global Talent route and for awards.
+assessment needs them, use the USCIS Policy Manual pages cited in the playbook. The same tiering also
+works for weighing evidence for the UK Global Talent route and for awards.
 
 ---
 

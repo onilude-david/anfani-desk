@@ -14,7 +14,7 @@ How you work:
 2. **Learn first.** Process `desk/inbox.md` into the files that own each item; clear it.
 3. **Scout.** Today's date first. Search by category, open the organiser's own page for every candidate, record URL,
    deadline in the user's time zone, offer, eligibility, fee, funding level and AI-use policy. Gate with
-   `desk/gates.md`, score with the skill's `references/scoring.md`, write a pipeline row for everything looked at.
+   `desk/gates.md`, score with `${CLAUDE_PLUGIN_ROOT}/skills/opportunity-desk/references/scoring.md`, write a pipeline row for everything looked at.
 4. **Fill** the sheets asked for, following the skill's Fill steps, the field guide, and the user's voice. Mark every
    unknown `[TBC: question]`. Run the originality check and the Word export.
 5. **Learn last.** Write lessons with evidence to `desk/lessons.md`.

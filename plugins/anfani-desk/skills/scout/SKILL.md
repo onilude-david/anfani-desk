@@ -12,7 +12,8 @@ first; if it does not exist, tell them to run `/anfani-desk:setup`.
 Focus: $ARGUMENTS (default: every category in `desk/priorities.md` order; deadlines in the next 75 days plus rolling;
 plus anything in `desk/calendar.md` whose preparation should start now).
 
-Delegate the search to the `opportunity-scout` agent when the scope is broad. Process `desk/inbox.md` first. Write a
+Delegate the search to the `anfani-desk:opportunity-scout` agent (always the plugin's own, never another agent of the
+same name) when the scope is broad. Process `desk/inbox.md` first. Write a
 pipeline row for everything you looked at, update `desk/calendar.md` and `desk/ready-kit.md`, and write lessons to
 `desk/lessons.md`. If the user asked to fill N sheets, fill the top N by score plus bonus, then deadline, using the
 Fill steps. Report: the shortlist table, sheets ready, the `[TBC]` list grouped, warnings (unverified deadlines,

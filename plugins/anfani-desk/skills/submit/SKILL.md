@@ -18,7 +18,8 @@ One approval covers one application, once. It never carries over to another appl
 
 1. **Ready check.** Open the sheet. Stop and say why if any of these fail:
    - a `[TBC]` remains in any answer the form will receive;
-   - the deadline has passed (re-check the organiser's page, in the user's time zone);
+   - the deadline has passed, or the form is not open yet (re-check the organiser's page, in the user's time zone);
+   - any limit in the sheet is still marked "inferred": check it against the live form first;
    - the originality check is not clean (run it again);
    - the review log shows an unresolved WEAK verdict (offer `/anfani-desk:review` first);
    - the "Make it yours" pass is not ticked in the sheet.

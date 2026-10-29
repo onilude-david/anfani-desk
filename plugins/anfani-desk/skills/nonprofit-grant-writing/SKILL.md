@@ -68,9 +68,8 @@ program description:
 - State the basis for each figure (e.g., "0.5 FTE Program Coordinator at $58,000 annual salary +
   22% fringe = $35,380") rather than a bare number.
 - Separate direct and indirect costs and state the basis for any admin or overhead line (a percentage of
-  direct costs, named). This repo applies to Nigerian funders and foundations, so the US federal indirect-cost
-  rules in the original skill (2 CFR 200) were removed; if a US federal award ever applies, read the original
-  at the URL in SOURCE.md. Flag restricted expense categories and any cap the funder states.
+  direct costs, named). The US federal indirect-cost rules in the original skill (2 CFR 200) were removed
+  from this bundled copy; if a US federal award applies, read the original at the URL in SOURCE.md. Flag restricted expense categories and any cap the funder states.
 - Reconcile the requested amount against the total project budget — clearly show what other
   revenue sources cover the balance if this grant is partial funding.
 

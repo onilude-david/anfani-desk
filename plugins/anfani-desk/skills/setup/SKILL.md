@@ -25,6 +25,7 @@ You are setting up a private opportunity desk for the person you are talking to.
    name only.
 
 4. **Interview (about 15 questions, a few at a time).** Ask only what the documents did not answer:
+   - Full legal name as on their passport, phone, email, time zone, LinkedIn and other links.
    - Nationality (every citizenship), country of residence, date of birth.
    - Highest degree, institution, year, class or GPA, language of instruction; any English test.
    - Current roles and organisations; for each organisation they run: what it is in their own words, registration,
@@ -33,9 +34,9 @@ You are setting up a private opportunity desk for the person you are talking to.
      programmes, jobs. What is out of scope.
    - Deal-breakers: fees, relocation, travel, time per week.
    - Visas they hold or have been refused (for travel-based programmes).
-   - Two or three things they wrote themselves (for their voice), and how they introduce themselves in one sentence.
+   - One to three things they wrote themselves (for their voice; one is enough to start), and how they introduce themselves in one sentence.
    - Three true moments from their work they are proud of (for the story bank).
-   - Referees who would say yes.
+   - Referees who would say yes: name, role, relationship, email.
    Write each answer into the right file as you go: `profile.md`, `gates.md`, `priorities.md`, `voice.md`,
    `story-bank.md`, `evidence.md`.
 

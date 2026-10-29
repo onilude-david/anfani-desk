@@ -17,7 +17,7 @@ Target: $ARGUMENTS
    sign in.
 3. Create `desk/applications/<yyyy-mm>-<slug>/answers.md` from
    `${CLAUDE_PLUGIN_ROOT}/skills/opportunity-desk/templates/answer-sheet.md`. Fill the form read, the evidence map and
-   every answer, using `references/field-guide/question-bank.md` for each question type and the chapter for the
+   every answer, using `${CLAUDE_PLUGIN_ROOT}/skills/opportunity-desk/references/field-guide/question-bank.md` for each question type and the chapter for the
    category.
 4. Where the programme forbids AI-written answers, give the record and the checklist, and leave the writing to the
    user.

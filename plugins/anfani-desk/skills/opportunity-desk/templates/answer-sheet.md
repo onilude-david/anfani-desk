@@ -74,6 +74,10 @@ and last sentence of every long answer in your own words; add one detail only yo
 saw).
 - [ ] Make it yours done (tick when finished; `/anfani-desk:submit` checks this box)
 
+## Review log
+
+(Filled by `/anfani-desk:review`: date, verdict, the three fixes, what changed.)
+
 ## User's own text
 
 (Only for programmes that forbid AI-written answers: paste your own answers here. `/anfani-desk:submit` enters only

@@ -35,5 +35,5 @@ alumni or partners. Score it, flag it at the top of the sheet, and confirm the o
 categories; 0 for the rest. Set from `desk/priorities.md`. The bonus orders the shortlist and decides which sheets get
 filled first; it never lifts anything past a hard gate.
 
-7+ (before the bonus) shortlist. 5–6 note for next cycle. Under 5 skip, with one line why. Order the shortlist by score
+7+ (before the bonus) shortlist. 5–6: fill only if the deadline is far enough to fix the weak points first, otherwise Watch for next cycle. Under 5 skip, with one line why. Order the shortlist by score
 plus bonus, then deadline. Effort bands: S under an hour, M an evening, L a weekend, XL needs documents from others.

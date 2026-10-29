@@ -18,10 +18,10 @@ Made by Anfani (anfani.app), the platform that finds the opportunities that suit
 |---|---|
 | **The user's record (read first, every time)** | `desk/profile.md` (facts, documents, dates), `desk/gates.md` (eligibility profile and hard gates), `desk/priorities.md` (what they want, in order), `desk/voice.md` (how they write), `desk/story-bank.md` (true moments), `desk/evidence.md` (what can be attached) |
 | Their pipeline, inbox and lessons | `desk/pipeline.md`, `desk/inbox.md`, `desk/lessons.md`, `desk/calendar.md`, `desk/ready-kit.md` |
-| Their applications | `desk/applications/<yyyy-mm>-<slug>/answers.md` (+ `answers.docx`) |
-| How programmes read, score and reject; what forms ask | `references/field-guide/` (start at its README) |
-| Score and gates method | `references/scoring.md` |
-| Answer-sheet template | `templates/answer-sheet.md` |
+| Their applications | `desk/applications/<yyyy-mm>-<slug>/answers.md` (+ `answers.docx`); `yyyy-mm` is the deadline month (rolling: the month you start) |
+| How programmes read, score and reject; what forms ask | `${CLAUDE_SKILL_DIR}/references/field-guide/` (start at its README) |
+| Score and gates method | `${CLAUDE_SKILL_DIR}/references/scoring.md` |
+| Answer-sheet template | `${CLAUDE_SKILL_DIR}/templates/answer-sheet.md` |
 | Scripts | `${CLAUDE_SKILL_DIR}/scripts/originality.py`, `md2docx.py`, `md2html.py` |
 
 If `desk/` does not exist, stop and tell the user to run `/anfani-desk:setup` first.
@@ -51,7 +51,7 @@ The user ranks these in `desk/priorities.md`. Chase, report and fill in their or
    page for every candidate and record the URL, the deadline in the user's time zone, the offer, the eligibility
    lines, any fee, the funding level and the programme's AI-use policy. Aggregators are leads, never the source of a
    deadline.
-3. **Gate, then score** with `references/scoring.md` and `desk/gates.md`. A failed hard gate is Ineligible with the
+3. **Gate, then score** with `${CLAUDE_SKILL_DIR}/references/scoring.md` and `desk/gates.md`. A failed hard gate is Ineligible with the
    reason. Score the rest 0–10 and add the priority bonus.
 4. **Write a pipeline row** for every opportunity looked at, including Ineligible and Skipped, with a one-line reason.
 5. **Watch the clocks:** the age clock and 12-month calendar in `desk/calendar.md`, and the ready kit against the
@@ -59,9 +59,10 @@ The user ranks these in `desk/priorities.md`. Chase, report and fill in their or
 
 ### Fill
 6. **Read the form first.** For every field: unit (words or characters, how the platform counts), limit, required or
-   not, published or not, and its question type from `references/field-guide/question-bank.md`. Copy the programme's
+   not, published or not, and its question type from `${CLAUDE_SKILL_DIR}/references/field-guide/question-bank.md`. Copy the programme's
    scoring criteria in its own words. If the form is behind a login, the user opens it and pastes or screenshots the
-   questions; you never sign in.
+   questions; you never sign in. If the form is not open yet or its limits are not published, draft to last cycle's
+   form, mark each borrowed limit "inferred (last cycle)", and add a pipeline note to re-check when it opens.
 7. **Map the evidence:** each criterion to a story, a fact and a document, and the gaps. Two fields of the same type
    use different examples.
 8. **Answer from the record only.** First person, the user's voice (`desk/voice.md`), answer first, inside every limit
@@ -111,5 +112,5 @@ wait for the user's yes.
 |---|---|
 | Grants (A) | `nonprofit-grant-writing`, `nonprofit-program-design`, `nonprofit-outcomes-measurement`, `nonprofit-storytelling`, `impact-report` |
 | Scholarships and fellowships (M, C) | `scholarship-essay` |
-| Startup programmes (B) | `pitch-deck-mastery`; the YC chapter in `references/field-guide/yc/` |
+| Startup programmes (B) | `pitch-deck-mastery`; the YC chapter in `${CLAUDE_SKILL_DIR}/references/field-guide/yc/` |
 | Talent visas and awards (T, W) | `o1-case-strength-assessor` |

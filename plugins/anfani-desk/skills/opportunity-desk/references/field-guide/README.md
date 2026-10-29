@@ -7,6 +7,11 @@ Each chapter lists its own sources, with pages seen only in search results marke
 shape of an answer; every fact in an answer comes from the applicant's profile file `desk/profile.md`. Nothing in
 the guide is pasted into an answer.
 
+**Where the examples come from.** The scoring patterns are global. The programme lists lean towards Africa, with
+many Nigerian and Lagos examples, and the YC chapter's company and visa steps were written for Nigerian founders.
+For other countries, use the method, then check local rules (registration, tax, visas) on official pages for the
+user's own country; never apply another country's rule.
+
 | File | What it is for |
 |---|---|
 | `question-bank.md` | Any form. 83 question types in 10 families: what each tests, an answer structure, the common mistake, 50/150/300/500-word versions; form mechanics checklist; AI policies and detection; the 14-step fill procedure for an unfamiliar form. Start here. |

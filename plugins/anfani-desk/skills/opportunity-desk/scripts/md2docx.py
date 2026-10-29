@@ -5,7 +5,11 @@ Handles headings, paragraphs, bold, italics, inline code, links (as text), bulle
 blockquotes and horizontal rules. [TBC: ...] markers are highlighted yellow.
 """
 import re, sys
-from docx import Document
+try:
+    from docx import Document
+except ImportError:
+    import sys
+    sys.exit('error: md2docx needs python-docx. Install it with:  python -m pip install --user python-docx')
 from docx.enum.text import WD_COLOR_INDEX
 from docx.shared import Pt
 

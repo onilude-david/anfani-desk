@@ -15,7 +15,7 @@ Give it the sheet, the programme's scoring criteria quoted in the sheet, and the
   question? Is every claim specific, dated and checkable? Does each criterion get its own visible evidence?
 - Use `${CLAUDE_PLUGIN_ROOT}/skills/opportunity-desk/references/field-guide/question-bank.md` (what each question
   type tests and the common mistakes) and, for startup programmes, the review rubric and red-flag checklist in
-  `references/field-guide/yc/external-tools.md`.
+  `${CLAUDE_PLUGIN_ROOT}/skills/opportunity-desk/references/field-guide/yc/external-tools.md`.
 - Check for AI tells: stacked threes, "not X but Y", empty openers and closers, inflated words, dashes as punctuation.
 - Return: a verdict (STRONG / BORDERLINE / WEAK), the three fixes that would most change the outcome, the one question
   a reviewer would ask, and any claim that looks unprovable.
